@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="./css/animate.css" />
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script><link rel='stylesheet' href='./css/font-awesome.min.css'/><link rel='stylesheet' href='./css/ionicons.min.css'/><link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src='./js/jqBootstrapValidation.js'></script>
+	<script src='./js/formHandler.js'></script>
+    <title>Profil - </title>
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    <!-- Navigation Bloc --><div id="b-nav" class="bloc-container">
+	<div id="bloc-nav" class="d-mode">
+		<div class="bloc b-divider bg-l-edge bgc-charcoal d-bloc" id="nav-bloc">
+			<div class="container">
+				<nav class="navbar row">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="index.html"><img src="img/Ynetwhite.jpg" alt="logo" width="200" height="50" /></a>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse navbar-1">
+						<ul class="site-navigation nav navbar-nav">
+							<li>
+								<a href="inscription.html" class="ltc-white">S'inscrire</a>
+							</li>
+							<li>
+								<a href="connexion.html" class="ltc-white">Se connecter</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div><!-- Navigation Bloc END --><!-- bloc-6 --><div class="bloc bgc-eggshell l-bloc" id="bloc-6">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
+				<h2 class="text-center  tc-black">
+					<i>Mon Profil</i>
+				</h2>
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-6 END --><!-- bloc-7 --><div class="bloc bgc-white-smoke l-bloc" id="bloc-7">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="panel">
+					<div class="panel-heading bgc-eggshell">
+						<h3 class="mg-clear text-center tc-black">
+							Mes Informations
+						</h3>
+					</div>
+					<div class="panel-body">
+						<form id="form_2264" novalidate>
+							<div class="form-group">
+								<label>
+									Nom
+								</label>
+								<input class="form-control" id="input_1187" required placeholder="El Haddad" />
+							</div>
+							<div class="form-group">
+								<label>
+									Prénom
+								</label>
+								<input class="form-control" id="input_1803" required placeholder="Auriles" />
+							</div>
+							<div class="form-group">
+								<label>
+									Adresse
+								</label>
+								<input class="form-control" id="input_1023" required placeholder="16 Impasse André Messager" />
+							</div>
+							<div class="form-group">
+								<label>
+									Ville
+								</label>
+								<input class="form-control" id="input_1571" required placeholder="Montreuil" />
+							</div>
+							<div class="form-group">
+								<label>
+									Code postal
+								</label>
+								<input class="form-control" id="input_798" required placeholder="93100" />
+							</div>
+							<div class="form-group">
+								<label>
+									Classe
+								</label>
+								<input class="form-control" id="input_798" required placeholder="Bachelor 3" />
+							</div>
+						</form>
+					</div>
+				</div>
+				<form id="form_1620" novalidate>
+					<div class="form-group">
+						<label>
+							Ceci est la boite de dialogue, discutez avec vos amis en temps réel en toute simplicité !
+						</label><textarea class="form-control" rows="4" cols="50" placeholder="To Quentin : salut vieux on a quoi à faire pour demain ? Quentin est entrain d&rsquo;écrire..." id="textarea_399"></textarea>
+					</div>
+					<div class="form-group">
+						<input class="form-control" placeholder="To Quentin : salut vieux, on à quoi  à faire pour demain? :)" id="input_2416" />
+					</div>
+				</form>
+			</div>
+			<div class="col-sm-6">
+				<div class="panel">
+					<div class="panel-heading bgc-white-smoke">
+						<img src="img/photo.JPG" class="img-circle img-frame-rd" width="100" height="100" />
+					</div>
+					<div class="panel-body">
+						<form id="form_1041" novalidate>
+							<div class="form-group">
+								<textarea class="form-control" rows="4" cols="50" id="description" data-validation-required-message="description is required." placeholder="Développeur Frontend actuellement en recherche d&rsquo;alternance !"></textarea>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="panel">
+					<div class="panel-heading bgc-eggshell">
+						<h3 class="mg-clear text-center tc-black">
+							Mes compétences
+						</h3>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-sm-3">
+								<div class="panel">
+									<div class="panel-body">
+										<p class="text-center">
+											HTML5<br />
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="panel">
+									<div class="panel-body">
+										<p class="text-center">
+											CSS3<br />SASS
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="panel">
+									<div class="panel-body">
+										<p class="text-center">
+											Javascript<br />AngularJS
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="panel">
+									<div class="panel-body">
+										<p class="text-center">
+											NodeJS<br />MongoDB
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="divider-h">
+							<span class="divider"></span>
+						</div>
+						<form id="form_2180" novalidate>
+							<div class="form-group">
+								<textarea class="form-control" rows="4" cols="50" placeholder="Espère pouvoir élargir mon domaine d&rsquo;apprentissage et ainsi améliorer mes compétences en travaillant sur des projets totalement innovants" id="textarea_2026"></textarea>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="panel">
+							<div class="panel-heading bgc-eggshell">
+								<h3 class="mg-clear tc-black">
+									Partage de documents
+								</h3>
+							</div>
+							<div class="panel-body">
+								<p>
+									Veuillez insérer le document que vous souhaitez partager
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="panel">
+							<div class="panel-heading bgc-eggshell">
+								<h3 class="mg-clear tc-black">
+									Choix du contact
+								</h3>
+							</div>
+							<div class="panel-body">
+								<ul class="list-unstyled">
+									<li>
+										<a href="https://www.facebook.com/quentin.kabasele?fref=ts" class="a-btn a-block">Quentin Kabasele</a>
+									</li>
+									<li>
+										<a href="https://www.facebook.com/islam.benzaied?fref=ts" class="a-btn a-block">Islam Ben Zaied</a>
+									</li>
+									<li>
+										<a href="https://www.facebook.com/aria.groult?fref=ts" class="a-btn a-block">Aria Groult</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-7 END --><!-- Footer - bloc-9 --><div class="bloc b-divider bgc-charcoal tc-white" id="bloc-9">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-6">
+				<h3 class="mg-md tc-white">
+					Nous suivre !
+				</h3><a href="https://github.com/Auriles" class="a-btn a-block ltc-white">Github</a>
+			</div>
+			<div class="col-sm-6">
+				<h3 class="mg-md tc-white">
+					Nous contacter !
+				</h3>
+				<p>
+					06.50.37.44.78<br />auriles0404@gmail.com
+				</p>
+			</div>
+		</div>
+	</div>
+</div><!-- Footer - bloc-9 END -->
+</div>
+<!-- Main container END -->
+
+</body>
+    
+<!-- Google Analytics -->
+
+<!-- Google Analytics END -->
+
+</html>

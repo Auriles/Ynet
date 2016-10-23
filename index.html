@@ -1,24 +1,199 @@
 <!doctype html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="./css/animate.css" />
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script><link rel='stylesheet' href='./css/font-awesome.min.css'/><link rel='stylesheet' href='./css/ionicons.min.css'/><link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src='./js/jqBootstrapValidation.js'></script>
+	<script src='./js/formHandler.js'></script>
+    <title></title>
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    <!-- Navigation Bloc --><div class="bloc b-divider bg-l-edge bgc-charcoal d-bloc" id="nav-bloc">
+	<div class="container">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html"><img src="img/Ynetwhite.jpg" alt="logo" width="200" height="50" /></a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1">
+				<ul class="site-navigation nav navbar-nav">
+					<li>
+						<a href="inscription.html" class="ltc-white">S'inscrire</a>
+					</li>
+					<li>
+						<a href="connexion.html" class="ltc-white">Se connecter</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div><!-- Navigation Bloc END --><!-- bloc-1 --><div class="bloc b-parallax bgc-white-smoke bg-bg2 d-bloc" id="bloc-1">
+	<div class="container bloc-lg">
+		<div class="row drag-obj">
+			<div class="col-sm-3">
+				<div class="text-center">
+					<span class="fa fa-at icon-lg icon-round pressed-t icon-2967 animated zoomIn animDelay02"></span>
+				</div>
+				<h3 class="text-center mg-md text-w-sm lg-shadow animated zoomIn animDelay02">
+					<strong>Fluidité</strong>
+				</h3>
+			</div>
+			<div class="col-sm-3">
+				<div class="text-center">
+					<span class="fa fa-cloud-upload icon-round icon-lg pressed-t animated zoomIn animDelay04"></span>
+				</div>
+				<h3 class="mg-md text-w-sm lg-shadow text-left text-center animated zoomIn animDelay04">
+					<strong>Partage de documents</strong>
+				</h3>
+			</div>
+			<div class="col-sm-3">
+				<div class="text-center">
+					<span class="fa fa-comments icon-round icon-lg pressed-t animated zoomIn animDelay06"></span>
+				</div>
+				<h3 class="text-center mg-md text-w-sm lg-shadow animated zoomIn animDelay06">
+					<strong>Tchat</strong>
+				</h3>
+			</div>
+			<div class="col-sm-3">
+				<div class="text-center">
+					<span class="ion ion-flash icon-round icon-lg pressed-t animated zoomIn animDelay08"></span>
+				</div>
+				<h3 class="mg-md text-center text-w-sm lg-shadow animated zoomIn animDelay08">
+					<strong>Restez connecté</strong>
+				</h3>
+			</div>
+		</div>
+		<div class="row voffset-md">
+			<div class="col-sm-4">
+				<div class="btn-group btn-block">
+					<a href="#" class="btn dropdown-toggle  btn-block btn-sm btn-white-smoke btn-clean" data-toggle="dropdown" aria-expanded="false">A quel campus appartenez-vous ?<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li>
+							<a href="index.html" class="a-btn a-block">Aix-en-Provence</a>
+						</li>
+						<li>
+							<a href="affichage-des-recherches.html" class="a-btn a-block">Bordeaux</a>
+						</li>
+						<li>
+							<a href="affichage-des-recherches.html" class="a-btn a-block">Lyon</a>
+						</li>
+						<li>
+							<a href="affichage-des-recherches.html" class="a-btn a-block">Nantes</a>
+						</li>
+						<li>
+							<a href="https://www.ingesup.com/campus/paris/" class="a-btn a-block" target="_blank">Paris</a>
+						</li>
+						<li>
+							<a href="affichage-des-recherches.html" class="a-btn a-block">Toulouse</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<form id="form_2121" novalidate>
+					<div class="form-group">
+						<input class="form-control" required id="cdepostal" data-validation-required-message="cdepostal is required." placeholder="Veuillez saisir votre niveau d'étude" />
+					</div>
+				</form>
+			</div>
+			<div class="col-sm-4">
+				<a href="affichage-des-recherches.html" class="btn  btn-block wire-btn-white btn-wire">Rechercher</a>
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-1 END --><!-- bloc-2 --><div class="bloc bgc-white-smoke l-bloc" id="bloc-2">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
+				<h3 class="text-center ">
+					<i>Ils nous ont fait confiance !</i>
+				</h3>
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-2 END --><!-- bloc-3 --><div class="bloc bgc-white-smoke l-bloc" id="bloc-3">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/11056558_1002515863101807_2095258582201233759_n.jpg" class="img-rd-md" width="200" height="200" />
+				<h3 class="mg-md text-left">
+					Francois
+				</h3>
+				<p>
+					"Une plateforme vraiment utile qui m'a permis à moi et mes amis de bénéficier d&rsquo;un intranet fluide !"
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<img src="img/12031610_10204846488671079_9127592745809608544_o.jpg" class="img-rd-md" width="200" height="200" />
+				<h3 class="mg-md text-left">
+					Claud
+				</h3>
+				<p>
+					"J&rsquo;ai utilisé cette plateforme pour consulter mon emploi du temps ; sa facilitié d&rsquo;accès m&rsquo;a vraiment étonné !"
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<img src="img/photo.JPG" class="img-rd-md" width="200" height="200" />
+				<h3 class="mg-md text-left">
+					Michel
+				</h3>
+				<p>
+					"Un service rapide et efficace, de quoi gagner un temps fou" !
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<img src="img/aria.jpg" class="img-rd-md" width="200" height="200" />
+				<h3 class="mg-md text-left">
+					Jean
+				</h3>
+				<p>
+					"Plus de doute, Pamplemousse était vraiment pathétique à côté de Ynet !"
+				</p>
+			</div>
+		</div>
+	</div>
+</div><!-- bloc-3 END --><!-- ScrollToTop Button --><a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a><!-- ScrollToTop Button END--><!-- Footer - bloc-9 --><div class="bloc b-divider bgc-charcoal tc-white" id="bloc-9">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-6">
+				<h3 class="mg-md tc-white">
+					Nous suivre !
+				</h3><a href="https://github.com/Auriles" class="a-btn a-block ltc-white">Github</a>
+			</div>
+			<div class="col-sm-6">
+				<h3 class="mg-md tc-white">
+					Nous contacter !
+				</h3>
+				<p>
+					06.50.37.44.78<br />auriles0404@gmail.com
+				</p>
+			</div>
+		</div>
+	</div>
+</div><!-- Footer - bloc-9 END -->
+</div>
+<!-- Main container END -->
 
-    <!-- Always force latest IE rendering engine or request Chrome Frame -->
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+</body>
+    
+<!-- Google Analytics -->
 
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Welcome to Middleman</title>
+<!-- Google Analytics END -->
 
-    <link href="/stylesheets/normalize.css" rel="stylesheet" /><link href="/stylesheets/all.css" rel="stylesheet" />
-    <script src="/javascripts/all.js"></script>
-  </head>
-
-  <body class="index">
-    <div class="welcome">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <a href="http://middlemanapp.com/">Read Online Documentation</a>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
-  </body>
 </html>
